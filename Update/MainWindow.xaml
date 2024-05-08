@@ -13,6 +13,6 @@
     </WindowChrome.WindowChrome>
     <Grid>
         <Label Name="CommonTitle" Content="Terabit Desktop" VerticalAlignment="Top" Margin="5" Foreground="#afafaf" FontFamily="Content/Fonts/#Oxanium" FontSize="32" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <Label Name="CurrentState" Content="Updating..." VerticalAlignment="Bottom" VerticalContentAlignment="Center" Margin="5,5,5,0" Foreground="#afafaf" FontFamily="Content/Fonts/#Oxanium" FontSize="24" FontWeight="Bold"/>
+        <Label Name="CurrentState" Content="Updating..." VerticalAlignment="Bottom" VerticalContentAlignment="Center" Margin="5,5,5,0" Foreground="#afafaf" FontFamily="Content/Fonts/#Oxanium" FontSize="24" FontWeight="Thin"/>
     </Grid>
 </Window>

@@ -29,22 +29,6 @@ namespace Update
                 StartTerabit();
         }
 
-        private void StartApplication()
-        {
-            try
-            {
-                State = Update.CurrentState.Starting;
-                Process MainProc = Process.Start("Terabit Desktop.exe");
-                MainProc.WaitForInputIdle();
-            }
-            catch
-            {
-                MessageBox.Show("There was an error while trying to start 'Terabit Desktop.exe'. Please check the file exists and try again.", "Error | ERR_EXE001", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-
-            Application.Current.Shutdown();
-        }
-
         public async Task<bool> CheckForUpdates()
         {
             State = Update.CurrentState.Checking;
